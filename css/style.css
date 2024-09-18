@@ -84,6 +84,28 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   html {
+    font-size: 1em;
+   }
+
+   body {
+    background-color: #fff;
+    color: #152A3E;
+    font-family: 'lexend tera';
+    font-size: 1em;
+    text-align: left
+   }
+
+
+   /*----------base header/footer style----------*/
+
+   header {
+    display: flex;
+    justify-content: center;
+    background-color:#152A3E;
+    padding: 30px 0
+   }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
