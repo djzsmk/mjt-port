@@ -102,31 +102,108 @@ textarea {
    }
 
    .content-wrapper {
-    width:90%;
-    margin: 50px 0
+    width:85%;
    }
 
-
-   /*----------base header/footer style----------*/
-
-   header {
+   header, #works, #skills, #about-me, footer {
     display: flex;
     justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 60px;
+    text-align: center;
+    flex-flow: row wrap;
+   }
+
+   #works p, #about-me p {
+    width: 100%;
+    text-align: left;
    }
 
    header .content-wrapper { 
     width:85%;
      }
 
+   /*------ magins--------*/
+   h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+   }
+
+   /*------padding-------*/
+   header {
+    padding-top: 30px;
+    padding-bottom: 60px;
+   }
+
    header nav {
     margin-bottom: 60px;
    }
 
+   #works {
+    padding-top: 60px;
+   }
+
+   #skills {
+    padding-bottom: 80px;
+   }
+
+   #about-me {
+    padding-top: 60px;
+    padding-bottom: 60px;
+   }
+
+   footer {
+    padding:80px 0
+   }
+
+   h2 {
+    margin-top: 60px;
+   }
+
+   h3 {
+    margin-bottom: 20px;
+   }
+
+   h4 {
+    margin: 0 0 40px 0
+   }
+
+   #skills {
+    padding-top: 80px ;
+   }
+
+   figure {
+    margin: 20px 0 40px 0;
+   }
+
+   /*----------base header/footer style----------*/
+   
+   header {
+    background-color:#453E4F ;
+    color: #FFE8D6
+   }
    header nav ul {
     display: flex;
     justify-content: space-between;
+   }
+
+   header h1 {
+    width:100%
+   }
+
+   header h2 {
+    padding-top: 60px;
+   }
+
+   /*----------Main area--------*/
+
+    main h2{
+    text-align: center;
+   }
+
+   #works {
+    padding-top: 60px;
+   }
+
+   #skills ul {
+    text-transform: uppercase;
    }
 
 /* ==========================================================================
