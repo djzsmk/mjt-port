@@ -90,7 +90,7 @@ textarea {
 
    body {
     background-color: #fff;
-    font-family: 'lexend tera';
+    font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     text-align: left
    }
@@ -99,6 +99,11 @@ textarea {
     list-style-type:none;
     margin:0;
     padding:0;
+   }
+
+   p, li {
+    font-size: 1rem;
+    line-height: 1.5;
    }
 
    .content-wrapper {
@@ -115,6 +120,10 @@ textarea {
    #works p, #about-me p {
     width: 100%;
     text-align: left;
+   }
+
+   img {
+    width: 100%;
    }
 
    header .content-wrapper { 
@@ -192,14 +201,39 @@ textarea {
     padding-top: 60px;
    }
 
-   /*----------Main area--------*/
+   footer {
+    background-color: #453E4F;
+    color: #FFE8D6;
+   }
+
+   /*----------Mobile -styles --------*/
+   
+    #works,#skills {
+      width:100%;
+    }
+
+    .portfolio-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+    }
+
+    .portfolio-works {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
 
     main h2{
     text-align: center;
    }
-
-   #works {
-    padding-top: 60px;
+   
+   #skills {
+    background-color:#453E4F ;
+    color:#FFE8D6 ;
    }
 
    #skills ul {
