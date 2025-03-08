@@ -101,6 +101,26 @@ textarea {
     padding:0;
    }
 
+   h1 {
+    color: #FFE8D6;
+    font-family: 'Alike', serif;
+    font-size: 1.75em;
+    line-height: 1.5;
+    width: 100%;
+   }
+
+   h2 {
+    color: #FFE8D6;
+    font-family: 'Alike', serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 400;
+   }
+
+   h3 {
+    font-size: 1.75rem;
+   }
+
    p, li {
     font-size: 1rem;
     line-height: 1.5;
@@ -128,6 +148,11 @@ textarea {
 
    header .content-wrapper { 
     width:85%;
+     }
+
+     h3, h4, h5, h6 {
+      font-family: 'Alike', serif;
+      line-height: 1.5;
      }
 
    /*------ magins--------*/
@@ -186,11 +211,18 @@ textarea {
    
    header {
     background-color:#453E4F ;
-    color: #FFE8D6
    }
    header nav ul {
     display: flex;
     justify-content: space-between;
+    color: #FFE8D6;
+   }
+
+   header nav ul li{
+    font-size: .75em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase ;
    }
 
    header h1 {
@@ -198,7 +230,12 @@ textarea {
    }
 
    header h2 {
-    padding-top: 60px;
+    width: 100%;
+   }
+   nav #contact-link {
+    background-color: #f19494;
+    padding: 10px 10px;
+    border-radius: 30px;
    }
 
    footer {
@@ -212,10 +249,14 @@ textarea {
       width:100%;
     }
 
+    #work h3 {
+      width: 100%;
+    }
+
     .portfolio-wrapper {
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items: stretch;
       flex-flow: row wrap;
     }
 
@@ -238,6 +279,10 @@ textarea {
 
    #skills ul {
     text-transform: uppercase;
+   }
+
+   #works-header h2 {
+    color: black;
    }
 
 /* ==========================================================================
