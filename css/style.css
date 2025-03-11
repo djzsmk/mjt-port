@@ -160,6 +160,15 @@ textarea {
       width: 100%;
      }
 
+     span {
+      font-weight: bold;
+     }
+
+     .project-link {
+      text-transform: uppercase;
+      font-size: 1.125rem;
+     }
+
    /*------ magins--------*/
    h1,h2,h3,h4,h5,h6 {
     margin: 0;
@@ -167,6 +176,10 @@ textarea {
 
    p{
     margin: 0;
+   }
+
+   .project-description {
+    margin: 0 0 30px 0;
    }
 
    /*------padding-------*/
@@ -214,6 +227,10 @@ textarea {
 
    figure {
     margin: 20px 0 40px 0;
+   }
+
+   .project-link {
+    margin: 40px 0 60px 0;
    }
 
    /*----------base header/footer style----------*/
@@ -291,6 +308,13 @@ textarea {
    }
 
    #works-header h2 {
+    color: black;
+   }
+
+   .project-link {
+    background-color: #453E4F;
+    padding: .75rem 3.75rem;
+    border-radius: 30px;
     color: black;
    }
 
