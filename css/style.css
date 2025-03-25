@@ -102,7 +102,7 @@ textarea {
    }
 
    h1 {
-    color: #FFE8D6;
+    color: #453E4F;
     font-family: 'Alike', serif;
     font-size: 1.75em;
     line-height: 1.5;
@@ -110,7 +110,7 @@ textarea {
    }
 
    h2 {
-    color: #FFE8D6;
+    color: #453E4F;
     font-family: 'Alike', serif;
     font-size: 1.25rem;
     line-height: 1.5;
@@ -233,15 +233,26 @@ textarea {
     margin: 40px 0 60px 0;
    }
 
+   #contact h3 {
+    margin-bottom: 60px;
+   }
+   .contact-info {
+    margin: 0 0 60px 0;
+   }
+
+   .contact-title {
+    margin: 0 0 40px 0;
+   }
+
    /*----------base header/footer style----------*/
    
    header {
-    background-color:#453E4F ;
+    background:#e8eff7; ;
    }
    header nav ul {
     display: flex;
     justify-content: space-between;
-    color: #FFE8D6;
+    color:#453E4F
    }
 
    header nav ul li{
@@ -259,14 +270,56 @@ textarea {
     width: 100%;
    }
    nav #contact-link {
-    background-color: #f19494;
+    background-color: #e9b14c;
     padding: 10px 10px;
     border-radius: 30px;
    }
 
    footer {
-    background-color: #453E4F;
-    color: #FFE8D6;
+    background-color: #e9b14c;
+    color: #453E4F;
+   }
+
+   footer .footer-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+   }
+
+   footer .contact-info {
+    width: 60%;
+   }
+
+   footer h4 {
+    width: 100%;
+   }
+
+   footer .follow-section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+   }
+
+   footer .social-icons {
+    display: flex;
+    justify-content: space-around;
+   }
+
+   footer ul {
+    width: 100%;
+   }
+
+   footer .social-icons li {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   footer .social-icons li i {
+    font-size: 1.875rem;
    }
 
    /*----------Mobile -styles --------*/
@@ -299,8 +352,8 @@ textarea {
    }
    
    #skills {
-    background-color:#453E4F ;
-    color:#FFE8D6 ;
+    background-color:#e9b14c ;
+    color:#453E4F ;
    }
 
    #skills ul {
@@ -312,7 +365,7 @@ textarea {
    }
 
    .project-link {
-    background-color: #453E4F;
+    background-color: #ffe8d6;
     padding: .75rem 3.75rem;
     border-radius: 30px;
     color: black;
