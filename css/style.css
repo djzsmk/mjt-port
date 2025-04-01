@@ -102,7 +102,7 @@ textarea {
    }
 
    h1 {
-    color: #453E4F;
+    color: #faf9f6;
     font-family: 'Alike', serif;
     font-size: 1.75em;
     line-height: 1.5;
@@ -110,7 +110,7 @@ textarea {
    }
 
    h2 {
-    color: #453E4F;
+    color: #faf9f6;
     font-family: 'Alike', serif;
     font-size: 1.25rem;
     line-height: 1.5;
@@ -247,12 +247,12 @@ textarea {
    /*----------base header/footer style----------*/
    
    header {
-    background:#e8eff7; ;
+    background: #d2042d; 
    }
    header nav ul {
     display: flex;
     justify-content: space-between;
-    color:#453E4F
+    color:#faf9f6;
    }
 
    header nav ul li{
@@ -270,14 +270,14 @@ textarea {
     width: 100%;
    }
    nav #contact-link {
-    background-color: #e9b14c;
+    background-color: #ffd700;
     padding: 10px 10px;
     border-radius: 30px;
    }
 
    footer {
-    background-color: #e9b14c;
-    color: #453E4F;
+    background-color: #d2042d;
+    color: #faf9f6;
    }
 
    footer .footer-content {
@@ -352,12 +352,18 @@ textarea {
    }
    
    #skills {
-    background-color:#e9b14c ;
-    color:#453E4F ;
+    background-color:#d2042d ;
+    color:#000;
    }
 
    #skills ul {
     text-transform: uppercase;
+   }
+
+   #skills ul li {
+    background-color: #ffd700;
+    padding: 15px 0;
+    margin: 20px 0;
    }
 
    #works-header h2 {
@@ -365,10 +371,10 @@ textarea {
    }
 
    .project-link {
-    background-color: #ffe8d6;
+    background-color: #d2042d;
     padding: .75rem 3.75rem;
     border-radius: 30px;
-    color: black;
+    color: #faf9f6;
    }
 
 /* ==========================================================================
