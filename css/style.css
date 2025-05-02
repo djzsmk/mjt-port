@@ -360,7 +360,7 @@ textarea {
     text-transform: uppercase;
    }
 
-   #skills ul li {
+   .language-wrapper p , .tool-wrapper p{
     background-color: #ffd700;
     padding: 15px 0;
     margin: 20px 0;
@@ -557,6 +557,107 @@ h2 {
 
 .about-area h4 {
   margin: 0 0 60px 0;
+}
+
+.about-area p {
+  margin: 0 0 30px 0;
+}
+
+.footer-content {
+  margin: 80px 0;
+}
+
+.contact-title {
+  margin:  0 0 30px 0;
+}
+
+/*header*/
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+header nav {
+display:flex;
+justify-content: center;
+width: 100%;
+text-transform:uppercase;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.title-intro {
+  display: flex ;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.title-intro h2 {
+  max-width: 80%;
+}
+
+/* portfolio */
+
+.portfolio-wrapper {
+  justify-content: space-around;
+}
+
+.portfolio-works {
+  width: 45%;
+  align-items: center;
+}
+
+.project-description {
+  width: 95%;
+}
+
+.language-wrapper, .tool-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-flow: row wrap;
+  text-transform: uppercase;
+}
+
+.skill, .tool {
+  width: 45%;
+}
+
+/*about*/
+
+.about-me-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+#about figure {
+  width: 60%;
+}
+
+.about-area h4 {
+  text-align: left;
+}
+
+/*footer*/
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .contact-info {
+  width: 50%
+}
+
+footer .social-icons {
+  width:  12.5em;
 }
 
 
