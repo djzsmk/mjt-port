@@ -647,8 +647,8 @@ header nav ul {
   flex-flow: row wrap;
 }
 
-#about figure {
-  width: 60%;
+#about-me figure {
+  width: 40%;
 }
 
 .about-area h4 {
@@ -844,7 +844,7 @@ footer .social-icons {
   }
 
   #about-me figure {
-    width: 35%;
+    width: 40%;
     margin-top: 0;
   }
 
