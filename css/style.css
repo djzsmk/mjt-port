@@ -255,6 +255,10 @@ textarea {
     color:#faf9f6;
    }
 
+   a:link , a:visited {
+    color: #faf9f6;
+   }
+
    header nav ul li{
     font-size: .75em;
     margin-bottom: 20px;
